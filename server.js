@@ -1,7 +1,7 @@
 // JSON Server module
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("teste.json");
+const router = jsonServer.router("db.json");
 
 // Certifique-se de usar o middleware padrão 
 //são ferramentas poderosas para moldar o fluxo de requisição-resposta, 
