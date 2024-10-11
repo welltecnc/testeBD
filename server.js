@@ -12,9 +12,9 @@ server.use(middlewares);
 // Adicione isso antes de server.use(router)
 server.use(
  // Adicione uma rota personalizada aqui, se necessário
- jsonServer.rewriter({
-  "/*": "/$1",
- })
+//  jsonServer.rewriter({
+//   "/*": "/$1",
+//  })
 );
 //Usando a rota 
 server.use(router);
